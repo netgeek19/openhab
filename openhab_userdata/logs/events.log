@@ -1,0 +1,139 @@
+2019-05-04 23:50:45.584 [thome.event.ExtensionEvent] - Extension 'package-expert' has been installed.
+2019-05-04 23:51:42.975 [thome.event.ExtensionEvent] - Extension 'misc-restdocs' has been installed.
+2019-05-04 23:51:42.985 [thome.event.ExtensionEvent] - Extension 'transformation-javascript' has been installed.
+2019-05-04 23:51:42.996 [thome.event.ExtensionEvent] - Extension 'ui-habpanel' has been installed.
+2019-05-04 23:51:43.000 [thome.event.ExtensionEvent] - Extension 'transformation-regex' has been installed.
+2019-05-04 23:51:43.003 [thome.event.ExtensionEvent] - Extension 'transformation-jsonpath' has been installed.
+2019-05-04 23:51:43.005 [thome.event.ExtensionEvent] - Extension 'transformation-xpath' has been installed.
+2019-05-04 23:51:43.006 [thome.event.ExtensionEvent] - Extension 'ui-basic' has been installed.
+2019-05-04 23:51:43.008 [thome.event.ExtensionEvent] - Extension 'transformation-map' has been installed.
+2019-05-04 23:51:43.010 [thome.event.ExtensionEvent] - Extension 'ui-classic' has been installed.
+2019-05-04 23:51:43.011 [thome.event.ExtensionEvent] - Extension 'ui-habmin' has been installed.
+2019-05-04 23:51:43.013 [thome.event.ExtensionEvent] - Extension 'transformation-xslt' has been installed.
+2019-05-04 23:51:43.015 [thome.event.ExtensionEvent] - Extension 'transformation-exec' has been installed.
+2019-05-04 23:51:43.017 [thome.event.ExtensionEvent] - Extension 'ui-paper' has been installed.
+2019-05-04 23:51:43.019 [thome.event.ExtensionEvent] - Extension 'transformation-scale' has been installed.
+2019-05-04 23:57:42.527 [thome.event.ExtensionEvent] - Extension 'binding-zwave' has been installed.
+2019-05-04 23:58:58.877 [thome.event.ExtensionEvent] - Extension 'binding-network' has been installed.
+2019-05-04 23:59:50.767 [thome.event.ExtensionEvent] - Extension 'binding-nest' has been installed.
+2019-05-05 00:03:39.783 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 00:03:39.840 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:03:39.854 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:03:39.863 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist
+2019-05-05 00:04:38.532 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:04:38.542 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:04:38.552 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist
+2019-05-05 00:05:07.912 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:05:07.923 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:05:07.942 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist
+2019-05-05 00:05:26.733 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:05:26.761 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:05:26.778 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist
+2019-05-05 00:18:58.119 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (COMMUNICATION_ERROR): Serial Error: Port {0} does not exist to UNINITIALIZED
+2019-05-05 00:18:58.149 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2019-05-05 00:36:03.695 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 00:36:03.727 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:36:07.660 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:36:07.701 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:41:37.956 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@15250f1
+2019-05-05 00:41:40.018 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.
+2019-05-05 00:42:29.777 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been removed.
+2019-05-05 00:42:29.835 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 00:42:29.856 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:42:29.866 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller
+2019-05-05 00:42:29.870 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 00:42:29.874 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 00:42:29.883 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 00:44:43.084 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 00:44:43.127 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 00:45:00.469 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@1d4344d
+2019-05-05 00:45:07.617 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node3' has been added.
+2019-05-05 00:45:07.623 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@113d6c7
+2019-05-05 00:45:16.353 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node3' has been removed.
+2019-05-05 00:45:16.429 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 00:45:16.439 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:45:16.446 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:45:16.449 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:16.466 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:16.474 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:16.477 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 00:45:30.323 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller to REMOVING
+2019-05-05 00:45:30.346 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVING to REMOVED
+2019-05-05 00:45:30.363 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVED to UNINITIALIZED
+2019-05-05 00:45:30.487 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2019-05-05 00:45:54.765 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:54.772 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 00:45:54.870 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:45:54.877 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:45:56.244 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:56.254 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:45:56.257 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 00:45:56.261 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 00:46:14.189 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:46:14.201 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:46:14.262 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:46:17.711 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:46:17.729 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:46:17.740 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:46:28.363 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:46:28.369 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 00:46:28.421 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 00:46:31.766 [hingStatusInfoChangedEvent] - 'zwave:serial_zstick:3f3da4ed' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:46:31.774 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 00:46:31.787 [me.event.ThingUpdatedEvent] - Thing 'zwave:serial_zstick:3f3da4ed' has been updated.
+2019-05-05 08:05:50.978 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@1da9038
+2019-05-05 08:05:52.995 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.
+2019-05-05 08:06:08.316 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been removed.
+2019-05-05 08:06:08.367 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 08:06:08.398 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 08:06:08.405 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 08:06:08.412 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:06:08.483 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:06:08.495 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:06:21.022 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@2063c8
+2019-05-05 08:06:32.058 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:06:32.503 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[ConfigStatusMessage [parameterName=switchall_mode, type=PENDING, messageKey=null, arguments=null, message=null, statusCode=null]]]
+2019-05-05 08:06:35.577 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from ONLINE to REMOVING
+2019-05-05 08:06:35.635 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVING to REMOVED
+2019-05-05 08:06:35.640 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVED to UNINITIALIZED
+2019-05-05 08:06:35.741 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2019-05-05 08:06:38.806 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from ONLINE to REMOVING
+2019-05-05 08:06:38.827 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from REMOVING to REMOVED
+2019-05-05 08:06:38.853 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from REMOVED to UNINITIALIZED
+2019-05-05 08:06:38.997 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2019-05-05 08:06:46.244 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@1d16d6f
+2019-05-05 08:06:48.268 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.
+2019-05-05 08:06:48.295 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node3' has been added.
+2019-05-05 08:06:58.401 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node3' has been removed.
+2019-05-05 08:06:58.459 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 08:06:58.473 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 08:06:58.511 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 08:06:58.530 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:06:58.533 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:06:58.544 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:06:58.558 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:06:58.560 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 08:07:17.480 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@828652
+2019-05-05 08:07:25.582 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:07:25.592 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 08:07:25.734 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from ONLINE to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 08:07:25.753 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node3' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 08:07:25.759 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node3' has been updated.
+2019-05-05 08:09:00.485 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been removed.
+2019-05-05 08:09:09.949 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@1238a74
+2019-05-05 08:09:11.969 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.
+2019-05-05 08:09:20.856 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been removed.
+2019-05-05 08:09:20.894 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 08:09:20.912 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 08:09:20.930 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller
+2019-05-05 08:09:20.934 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:09:20.958 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:09:20.970 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:09:20.999 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:09:21.005 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 08:09:38.593 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (COMMUNICATION_ERROR): Node is not communicating with controller to REMOVING
+2019-05-05 08:09:38.601 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVING to REMOVED
+2019-05-05 08:09:38.620 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from REMOVED to UNINITIALIZED
+2019-05-05 08:09:38.724 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2019-05-05 08:09:40.014 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@108a820
+2019-05-05 08:27:58.965 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.

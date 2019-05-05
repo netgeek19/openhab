@@ -1,0 +1,46 @@
+{
+  "zwave:device:3f3da4ed:node2": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "3f3da4ed"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "3f3da4ed",
+          "node2"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "hank_hkzwso03_00_000"
+        ]
+      },
+      "properties": {
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
+        "zwave_frequent": "false",
+        "zwave_version": "1.2",
+        "zwave_listening": "true",
+        "zwave_deviceid": "10",
+        "zwave_routing": "true",
+        "zwave_beaming": "true",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "node_id": 2,
+        "zwave_manufacturer": "520",
+        "zwave_devicetype": "257"
+      },
+      "flag": "NEW",
+      "label": "Z-Wave Node 002: HKZW_SO03 Smart Plug",
+      "timestamp": 1557059278957,
+      "timeToLive": -1
+    }
+  }
+}

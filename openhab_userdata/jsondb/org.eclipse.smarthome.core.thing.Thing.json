@@ -1,0 +1,434 @@
+{
+  "zwave:serial_zstick:3f3da4ed": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "NetWave-Controller",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_sof"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_sof"
+            ]
+          },
+          "label": "Start Frames",
+          "description": "Counter tracking the number of SOF bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_ack"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_ack"
+            ]
+          },
+          "label": "Frames Acknowledged",
+          "description": "Counter tracking the number of frames acknowledged by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_nak"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_nak"
+            ]
+          },
+          "label": "Frames Rejected",
+          "description": "Counter tracking the number of frames rejected by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_can"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_can"
+            ]
+          },
+          "label": "Frames Cancelled",
+          "description": "Counter tracking the number of frames cancelled by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_oof"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_oof"
+            ]
+          },
+          "label": "OOF Bytes Received",
+          "description": "Counter tracking the number of out of flow bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "3f3da4ed",
+              "serial_cse"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_cse"
+            ]
+          },
+          "label": "Received Checksum Errors",
+          "description": "Counter tracking the number of frames received with checksum errors",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "controller_softreset": false,
+          "security_networkkey": "86 F8 D2 E2 5B 0D D3 5D 76 D2 4F 3A D4 90 B2 C0",
+          "security_inclusionmode": 0,
+          "controller_sisnode": 1,
+          "controller_sync": false,
+          "port": "/dev/ttyACM0",
+          "controller_master": true,
+          "inclusion_mode": 2,
+          "controller_wakeupperiod": 3600,
+          "heal_time": 2,
+          "controller_exclude": false,
+          "controller_inclusiontimeout": 30,
+          "controller_hardreset": false
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "3f3da4ed"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick"
+        ]
+      }
+    }
+  },
+  "zwave:device:3f3da4ed:node3": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "NetWave-Sensor01",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "3f3da4ed"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "sensor_relhumidity"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_relhumidity"
+            ]
+          },
+          "label": "Sensor (relative humidity)",
+          "description": "Indicates the current relative humidity",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dRELATIVE_HUMIDITY"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "sensor_luminance"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_luminance"
+            ]
+          },
+          "label": "Sensor (luminance)",
+          "description": "Indicates the current light reading",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dLUMINANCE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "sensor_temperature"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ]
+          },
+          "label": "Sensor (temperature)",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "alarm_motion"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_motion"
+            ]
+          },
+          "label": "Alarm (motion)",
+          "description": "Indicates if a motion alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dBURGLAR, event\u003d8"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "alarm_tamper"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_tamper"
+            ]
+          },
+          "label": "Alarm (tamper)",
+          "description": "Indicates if the tamper alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM;type\u003dBURGLAR, event\u003d3"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node3",
+              "battery-level"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "system",
+              "battery-level"
+            ]
+          },
+          "label": "Battery Level",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:PercentType": "COMMAND_CLASS_BATTERY"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "binding_cmdrepollperiod": 1500,
+          "action_failed": false,
+          "wakeup_interval": 43200,
+          "group_1": [
+            "node_1"
+          ],
+          "action_remove": false,
+          "binding_pollperiod": 86400,
+          "action_heal": false,
+          "config_1_1": 1,
+          "config_2_1": 10,
+          "action_reinit": false,
+          "config_7_1": 4,
+          "wakeup_node": 1,
+          "config_3_1": 10,
+          "config_4_1": 10,
+          "config_5_1": 15,
+          "node_id": 3,
+          "config_6_1": 3
+        }
+      },
+      "properties": {
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_NOTIFICATION",
+        "zwave_frequent": "false",
+        "zwave_neighbours": "",
+        "modelId": "ZSE40",
+        "zwave_version": "17.9",
+        "zwave_listening": "false",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "manufacturerId": "027A",
+        "manufacturerRef": "2021:2101",
+        "dbReference": "491",
+        "zwave_deviceid": "8449",
+        "zwave_nodeid": "3",
+        "vendor": "Zooz",
+        "defaultAssociations": "1",
+        "zwave_routing": "true",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_SLEEPING_REPORTING",
+        "zwave_beaming": "true",
+        "zwave_secure": "false",
+        "zwave_class_specific": "SPECIFIC_TYPE_NOTIFICATION_SENSOR",
+        "zwave_manufacturer": "634",
+        "zwave_devicetype": "8225"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "3f3da4ed",
+          "node3"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "zooz_zse40_00_000"
+        ]
+      }
+    }
+  }
+}
