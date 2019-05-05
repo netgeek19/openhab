@@ -1,4 +1,22 @@
 {
+  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_time_to_target -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:time_to_target": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "time_to_target"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_time_to_target"
+    }
+  },
   "zwave_device_696a9062_node2_meter_voltage -\u003e zwave:device:696a9062:node2:meter_voltage": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -17,252 +35,21 @@
       "itemName": "zwave_device_696a9062_node2_meter_voltage"
     }
   },
-  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_mode -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:mode": {
+  "nest_thermostat_8df4e7b7_time_to_target -\u003e nest:thermostat:8df4e7b7:time_to_target": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
       "channelUID": {
         "segments": [
           "nest",
           "thermostat",
-          "af5fa800",
-          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
-          "mode"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_mode"
-    }
-  },
-  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_co_alarm_state -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:co_alarm_state": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "structure",
-          "af5fa800",
-          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
-          "co_alarm_state"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_co_alarm_state"
-    }
-  },
-  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_smoke_alarm_state -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:smoke_alarm_state": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "structure",
-          "af5fa800",
-          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
-          "smoke_alarm_state"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_smoke_alarm_state"
-    }
-  },
-  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_temperature -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:temperature": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "thermostat",
-          "af5fa800",
-          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
-          "temperature"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_temperature"
-    }
-  },
-  "zwave_serial_zstick_696a9062_serial_can -\u003e zwave:serial_zstick:696a9062:serial_can": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "serial_zstick",
-          "696a9062",
-          "serial_can"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_serial_zstick_696a9062_serial_can"
-    }
-  },
-  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_min_set_point -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:min_set_point": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "thermostat",
-          "af5fa800",
-          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
-          "min_set_point"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_min_set_point"
-    }
-  },
-  "zwave_serial_zstick_696a9062_serial_ack -\u003e zwave:serial_zstick:696a9062:serial_ack": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "serial_zstick",
-          "696a9062",
-          "serial_ack"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_serial_zstick_696a9062_serial_ack"
-    }
-  },
-  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_away -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:away": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "structure",
-          "af5fa800",
-          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
-          "away"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_away"
-    }
-  },
-  "zwave_device_696a9062_node3_sensor_luminance -\u003e zwave:device:696a9062:node3:sensor_luminance": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "device",
-          "696a9062",
-          "node3",
-          "sensor_luminance"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_device_696a9062_node3_sensor_luminance"
-    }
-  },
-  "zwave_device_696a9062_node2_meter_kwh -\u003e zwave:device:696a9062:node2:meter_kwh": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "device",
-          "696a9062",
-          "node2",
-          "meter_kwh"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_device_696a9062_node2_meter_kwh"
-    }
-  },
-  "zwave_serial_zstick_696a9062_serial_nak -\u003e zwave:serial_zstick:696a9062:serial_nak": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "serial_zstick",
-          "696a9062",
-          "serial_nak"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_serial_zstick_696a9062_serial_nak"
-    }
-  },
-  "zwave_serial_zstick_696a9062_serial_cse -\u003e zwave:serial_zstick:696a9062:serial_cse": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "serial_zstick",
-          "696a9062",
-          "serial_cse"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_serial_zstick_696a9062_serial_cse"
-    }
-  },
-  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_humidity -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:humidity": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "thermostat",
-          "af5fa800",
-          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
-          "humidity"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_humidity"
-    }
-  },
-  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_time_to_target -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:time_to_target": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "nest",
-          "thermostat",
-          "af5fa800",
-          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "8df4e7b7",
           "time_to_target"
         ]
       },
       "configuration": {
         "properties": {}
       },
-      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_time_to_target"
+      "itemName": "nest_thermostat_8df4e7b7_time_to_target"
     }
   },
   "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_time_zone -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:time_zone": {
@@ -301,6 +88,24 @@
       "itemName": "zwave_device_696a9062_node2_switch_binary"
     }
   },
+  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_mode -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:mode": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "mode"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_mode"
+    }
+  },
   "zwave_device_696a9062_node3_battery_level -\u003e zwave:device:696a9062:node3:battery-level": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -317,6 +122,42 @@
         "properties": {}
       },
       "itemName": "zwave_device_696a9062_node3_battery_level"
+    }
+  },
+  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_co_alarm_state -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:co_alarm_state": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "af5fa800",
+          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
+          "co_alarm_state"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_co_alarm_state"
+    }
+  },
+  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_smoke_alarm_state -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:smoke_alarm_state": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "af5fa800",
+          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
+          "smoke_alarm_state"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_smoke_alarm_state"
     }
   },
   "zwave_device_696a9062_node3_alarm_motion -\u003e zwave:device:696a9062:node3:alarm_motion": {
@@ -391,6 +232,24 @@
       "itemName": "zwave_device_696a9062_node3_sensor_temperature"
     }
   },
+  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_temperature -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_temperature"
+    }
+  },
   "zwave_serial_zstick_696a9062_serial_oof -\u003e zwave:serial_zstick:696a9062:serial_oof": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -426,6 +285,23 @@
       "itemName": "zwave_device_696a9062_node3_alarm_tamper"
     }
   },
+  "zwave_serial_zstick_696a9062_serial_can -\u003e zwave:serial_zstick:696a9062:serial_can": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "696a9062",
+          "serial_can"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_serial_zstick_696a9062_serial_can"
+    }
+  },
   "zwave_device_696a9062_node2_meter_current -\u003e zwave:device:696a9062:node2:meter_current": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -444,6 +320,77 @@
       "itemName": "zwave_device_696a9062_node2_meter_current"
     }
   },
+  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_min_set_point -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:min_set_point": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "min_set_point"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_min_set_point"
+    }
+  },
+  "zwave_serial_zstick_696a9062_serial_ack -\u003e zwave:serial_zstick:696a9062:serial_ack": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "696a9062",
+          "serial_ack"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_serial_zstick_696a9062_serial_ack"
+    }
+  },
+  "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_away -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:away": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "af5fa800",
+          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg",
+          "away"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_away"
+    }
+  },
+  "zwave_device_696a9062_node3_sensor_luminance -\u003e zwave:device:696a9062:node3:sensor_luminance": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "696a9062",
+          "node3",
+          "sensor_luminance"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_696a9062_node3_sensor_luminance"
+    }
+  },
   "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_set_point -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:set_point": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -460,6 +407,58 @@
         "properties": {}
       },
       "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_set_point"
+    }
+  },
+  "zwave_device_696a9062_node2_meter_kwh -\u003e zwave:device:696a9062:node2:meter_kwh": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "696a9062",
+          "node2",
+          "meter_kwh"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_696a9062_node2_meter_kwh"
+    }
+  },
+  "zwave_serial_zstick_696a9062_serial_nak -\u003e zwave:serial_zstick:696a9062:serial_nak": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "696a9062",
+          "serial_nak"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_serial_zstick_696a9062_serial_nak"
+    }
+  },
+  "zwave_serial_zstick_696a9062_serial_cse -\u003e zwave:serial_zstick:696a9062:serial_cse": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "696a9062",
+          "serial_cse"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_serial_zstick_696a9062_serial_cse"
     }
   },
   "zwave_device_696a9062_node2_meter_watts -\u003e zwave:device:696a9062:node2:meter_watts": {
@@ -531,6 +530,24 @@
         "properties": {}
       },
       "itemName": "zwave_serial_zstick_696a9062_serial_sof"
+    }
+  },
+  "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_humidity -\u003e nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_af5fa800_RDvRY_aMdN0J804DhGG7dt6pj92EKVcM_humidity"
     }
   },
   "nest_structure_af5fa800_8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16_q5vinREaFV91S8kbCg_security_state -\u003e nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg:security_state": {

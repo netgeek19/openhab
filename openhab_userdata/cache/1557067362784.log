@@ -1,0 +1,13 @@
+!SESSION 2019-05-05 11:08:15.009 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_192
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=linux, ARCH=arm, WS=gtk, NL=en_US
+
+!ENTRY org.eclipse.osgi 4 0 2019-05-05 11:08:15.012
+!MESSAGE Error stopping the framework.
+!STACK 0
+org.osgi.framework.BundleException: Could not lock the system bundle state for shutdown.
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:225)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:748)

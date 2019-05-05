@@ -50,3 +50,513 @@
 2019-05-05 08:09:11.958 [WARN ] [wave.discovery.ZWaveDiscoveryService] - NODE 2: Device discovery could not resolve to a thingType! Manufacturer data not known.
 2019-05-05 08:09:11.967 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'zwave:device:3f3da4ed:node2' to inbox.
 2019-05-05 08:27:58.961 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'zwave:device:3f3da4ed:node2' to inbox.
+2019-05-05 08:50:18.164 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'zwave:device:3f3da4ed:node3' to inbox.
+2019-05-05 08:51:05.705 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Stopped ZWave serial handler
+2019-05-05 08:51:45.693 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Connecting to serial port '/dev/ttyACM0'
+2019-05-05 08:51:45.707 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Serial port is initialized
+2019-05-05 08:51:45.711 [INFO ] [ve.internal.protocol.ZWaveController] - Starting ZWave controller
+2019-05-05 08:51:45.714 [INFO ] [ve.internal.protocol.ZWaveController] - ZWave timeout is set to 5000ms. Soft reset is false.
+2019-05-05 08:51:45.803 [WARN ] [nal.protocol.ZWaveTransactionManager] - NODE 2: Not initialized (ie node unknown), ignoring message.
+2019-05-05 08:51:45.815 [WARN ] [nal.protocol.ZWaveTransactionManager] - NODE 2: Not initialized (ie node unknown), ignoring message.
+2019-05-05 08:51:45.835 [WARN ] [nal.protocol.ZWaveTransactionManager] - NODE 3: Not initialized (ie node unknown), ignoring message.
+2019-05-05 08:51:50.448 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'zwave:device:696a9062:node2' to inbox.
+2019-05-05 08:51:50.525 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'zwave:device:696a9062:node3' to inbox.
+2019-05-05 09:12:00.194 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM' to inbox.
+2019-05-05 09:12:00.207 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg' to inbox.
+2019-05-05 09:20:54.209 [INFO ] [core.karaf.internal.FeatureInstaller] - Uninstalled 'openhab-binding-network'
+2019-05-05 09:26:47.851 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 09:26:47.907 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 09:26:47.999 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 09:26:48.023 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 09:26:55.572 [WARN ] [org.eclipse.jetty.server.HttpChannel] - /rest/items
+javax.servlet.ServletException: javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_14,15,11841498) has been shut down
+
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:88) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_14,15,11841498) has been shut down
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:489) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: org.glassfish.hk2.api.MultiException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_14,15,11841498) has been shut down
+
+	at org.jvnet.hk2.internal.FactoryCreator.getFactoryHandle(FactoryCreator.java:106) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.dispose(FactoryCreator.java:173) ~[?:?]
+	at org.jvnet.hk2.internal.SystemDescriptor.dispose(SystemDescriptor.java:526) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.remove(RequestScope.java:532) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.release(RequestScope.java:549) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:319) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305) ~[172:org.glassfish.jersey.core.jersey-server:2.22.2]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154) ~[172:org.glassfish.jersey.core.jersey-server:2.22.2]
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_14,15,11841498) has been shut down
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.checkState(ServiceLocatorImpl.java:2288) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandleImpl(ServiceLocatorImpl.java:629) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandle(ServiceLocatorImpl.java:622) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandle(ServiceLocatorImpl.java:640) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.getFactoryHandle(FactoryCreator.java:103) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.dispose(FactoryCreator.java:173) ~[?:?]
+	at org.jvnet.hk2.internal.SystemDescriptor.dispose(SystemDescriptor.java:526) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.remove(RequestScope.java:532) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.release(RequestScope.java:549) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:319) ~[171:org.glassfish.jersey.core.jersey-common:2.22.2]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305) ~[172:org.glassfish.jersey.core.jersey-server:2.22.2]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154) ~[172:org.glassfish.jersey.core.jersey-server:2.22.2]
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[169:org.glassfish.jersey.containers.jersey-container-servlet-core:2.22.2]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+2019-05-05 09:28:08.796 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'America/New_York'.
+2019-05-05 09:28:21.431 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'en_US'.
+2019-05-05 09:41:19.770 [WARN ] [t.internal.handler.NestBridgeHandler] - Nest API error: Cannot set target_temperature_high while mode is cool
+2019-05-05 09:41:28.347 [WARN ] [t.internal.handler.NestBridgeHandler] - Nest API error: Cannot set target_temperature_high while mode is cool
+2019-05-05 09:41:31.472 [WARN ] [t.internal.handler.NestBridgeHandler] - Nest API error: Cannot set target_temperature_low while mode is cool
+2019-05-05 09:41:41.173 [WARN ] [t.internal.handler.NestBridgeHandler] - Nest API error: Cannot set target_temperature_low while mode is cool
+2019-05-05 09:54:52.382 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2019-05-05 09:54:53.433 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.items'
+2019-05-05 09:55:04.193 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2019-05-05 09:55:04.197 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.sitemap' is either empty or cannot be parsed correctly!
+2019-05-05 09:55:05.230 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2019-05-05 09:55:05.237 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.sitemap' is either empty or cannot be parsed correctly!
+2019-05-05 10:40:33.037 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2019-05-05 10:40:33.169 [WARN ] [org.eclipse.jetty.server.HttpChannel] - /classicui/app
+javax.servlet.ServletException: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:88) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:204) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: org.eclipse.smarthome.ui.classic.render.RenderException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:165) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+2019-05-05 10:40:37.911 [WARN ] [org.eclipse.jetty.server.HttpChannel] - /classicui/app
+javax.servlet.ServletException: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:88) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:204) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: org.eclipse.smarthome.ui.classic.render.RenderException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:165) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+2019-05-05 10:40:43.969 [WARN ] [org.eclipse.jetty.server.HttpChannel] - /classicui/app
+javax.servlet.ServletException: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:88) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: javax.servlet.ServletException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:204) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: org.eclipse.smarthome.ui.classic.render.RenderException: Sitemap '_default' could not be found
+	at org.eclipse.smarthome.ui.classic.internal.servlet.WebAppServlet.service(WebAppServlet.java:165) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[82:org.eclipse.jetty.security:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[85:org.eclipse.jetty.servlet:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+2019-05-05 10:40:45.849 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Stopped ZWave serial handler
+2019-05-05 10:40:46.442 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2019-05-05 10:40:46.501 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2019-05-05 10:40:47.800 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2019-05-05 10:40:47.831 [WARN ] [e.jetty.util.thread.QueuedThreadPool] - QueuedThreadPool[ESH-httpClient-common]@892a70{STOPPING,10<=10<=40,i=1,q=5}[org.eclipse.jetty.util.thread.TryExecutor$$Lambda$116/26544542@b3ca31] Couldn't stop Thread[ESH-httpClient-common-3122,5,]
+2019-05-05 10:40:47.833 [WARN ] [e.jetty.util.thread.QueuedThreadPool] - QueuedThreadPool[ESH-httpClient-common]@892a70{STOPPING,10<=10<=40,i=1,q=5}[org.eclipse.jetty.util.thread.TryExecutor$$Lambda$116/26544542@b3ca31] Couldn't stop Thread[ESH-httpClient-common-3118,5,]
+2019-05-05 10:40:47.836 [WARN ] [e.jetty.util.thread.QueuedThreadPool] - QueuedThreadPool[ESH-httpClient-common]@892a70{STOPPING,10<=10<=40,i=0,q=5}[org.eclipse.jetty.util.thread.TryExecutor$$Lambda$116/26544542@b3ca31] Couldn't stop Thread[ESH-httpClient-common-3116,5,main]
+2019-05-05 10:40:47.839 [WARN ] [e.jetty.util.thread.QueuedThreadPool] - QueuedThreadPool[ESH-httpClient-common]@892a70{STOPPING,10<=10<=40,i=0,q=5}[org.eclipse.jetty.util.thread.TryExecutor$$Lambda$116/26544542@b3ca31] Couldn't stop Thread[ESH-httpClient-common-3117,5,main]
+2019-05-05 10:40:47.869 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2019-05-05 10:40:47.897 [INFO ] [.dashboard.internal.DashboardService] - Stopped Dashboard
+2019-05-05 10:44:10.407 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2019-05-05 10:44:10.797 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 10:44:17.094 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 10:44:45.826 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'America/New_York'.
+2019-05-05 10:44:49.568 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'en_US'.
+2019-05-05 10:44:59.576 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 10:44:59.579 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 10:46:07.850 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2019-05-05 10:46:16.346 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2019-05-05 10:46:17.238 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2019-05-05 10:46:17.243 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.sitemap' is either empty or cannot be parsed correctly!
+2019-05-05 10:46:18.964 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Connecting to serial port '/dev/ttyACM0'
+2019-05-05 10:46:19.188 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Serial port is initialized
+2019-05-05 10:46:19.268 [INFO ] [ve.internal.protocol.ZWaveController] - Starting ZWave controller
+2019-05-05 10:46:19.270 [INFO ] [ve.internal.protocol.ZWaveController] - ZWave timeout is set to 5000ms. Soft reset is false.
+2019-05-05 10:46:20.891 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at http://192.168.1.211:8080
+2019-05-05 10:46:20.897 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at https://192.168.1.211:8443
+2019-05-05 10:46:39.094 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2019-05-05 10:46:39.379 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2019-05-05 11:08:05.649 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2019-05-05 11:08:15.358 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Stopped ZWave serial handler
+2019-05-05 11:08:16.700 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2019-05-05 11:08:16.763 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2019-05-05 11:08:17.622 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2019-05-05 11:08:17.681 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2019-05-05 11:08:17.714 [INFO ] [.dashboard.internal.DashboardService] - Stopped Dashboard
+2019-05-05 11:09:51.646 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 11:09:52.211 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 11:09:53.195 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2019-05-05 11:09:53.987 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'America/New_York'.
+2019-05-05 11:09:53.995 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'en_US'.
+2019-05-05 11:09:54.356 [INFO ] [.googletts.internal.GoogleTTSService] - Using cache folder /openhab/userdata/cache/org.openhab.voice.googletts
+2019-05-05 11:09:54.361 [ERROR] [.googletts.internal.GoogleTTSService] - Missing service account key configuration to access Google Cloud TTS API.
+2019-05-05 11:10:08.040 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2019-05-05 11:10:11.943 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2019-05-05 11:10:13.272 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2019-05-05 11:10:13.277 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.sitemap' is either empty or cannot be parsed correctly!
+2019-05-05 11:10:14.359 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Connecting to serial port '/dev/ttyACM0'
+2019-05-05 11:10:14.455 [INFO ] [ing.zwave.handler.ZWaveSerialHandler] - Serial port is initialized
+2019-05-05 11:10:15.962 [INFO ] [ve.internal.protocol.ZWaveController] - Starting ZWave controller
+2019-05-05 11:10:15.965 [INFO ] [ve.internal.protocol.ZWaveController] - ZWave timeout is set to 5000ms. Soft reset is false.
+2019-05-05 11:10:25.815 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at http://192.168.1.211:8080
+2019-05-05 11:10:25.446 [WARN ] [org.eclipse.jetty.server.HttpChannel] - /rest/items
+javax.servlet.ServletException: javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_3,4,27586420) has been shut down
+
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:88) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) ~[84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [84:org.eclipse.jetty.server:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [75:org.eclipse.jetty.io:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [87:org.eclipse.jetty.util:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_3,4,27586420) has been shut down
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:489) ~[?:?]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[?:?]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: org.glassfish.hk2.api.MultiException: A MultiException has 1 exceptions.  They are:
+1. java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_3,4,27586420) has been shut down
+
+	at org.jvnet.hk2.internal.FactoryCreator.getFactoryHandle(FactoryCreator.java:106) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.dispose(FactoryCreator.java:173) ~[?:?]
+	at org.jvnet.hk2.internal.SystemDescriptor.dispose(SystemDescriptor.java:526) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.remove(RequestScope.java:532) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.release(RequestScope.java:549) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:319) ~[?:?]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305) ~[?:?]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154) ~[?:?]
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473) ~[?:?]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[?:?]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+Caused by: java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_3,4,27586420) has been shut down
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.checkState(ServiceLocatorImpl.java:2288) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandleImpl(ServiceLocatorImpl.java:629) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandle(ServiceLocatorImpl.java:622) ~[?:?]
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getServiceHandle(ServiceLocatorImpl.java:640) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.getFactoryHandle(FactoryCreator.java:103) ~[?:?]
+	at org.jvnet.hk2.internal.FactoryCreator.dispose(FactoryCreator.java:173) ~[?:?]
+	at org.jvnet.hk2.internal.SystemDescriptor.dispose(SystemDescriptor.java:526) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.remove(RequestScope.java:532) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope$Instance.release(RequestScope.java:549) ~[?:?]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:319) ~[?:?]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305) ~[?:?]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154) ~[?:?]
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473) ~[?:?]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) ~[?:?]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) ~[?:?]
+	at com.eclipsesource.jaxrs.publisher.internal.ServletContainerBridge.service(ServletContainerBridge.java:76) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[?:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) ~[?:?]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) ~[?:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[?:?]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) ~[?:?]
+	... 15 more
+2019-05-05 11:10:26.006 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at https://192.168.1.211:8443
+2019-05-05 11:10:28.565 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2019-05-05 11:10:28.740 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin

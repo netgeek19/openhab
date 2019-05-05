@@ -1,0 +1,71 @@
+{
+  "nest:thermostat:af5fa800:RDvRY_aMdN0J804DhGG7dt6pj92EKVcM": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "af5fa800"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "af5fa800",
+          "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "thermostat"
+        ]
+      },
+      "properties": {
+        "firmwareVersion": "5.9.3-6",
+        "deviceId": "RDvRY_aMdN0J804DhGG7dt6pj92EKVcM"
+      },
+      "representationProperty": "deviceId",
+      "flag": "NEW",
+      "label": "Living Room Thermostat",
+      "timestamp": 1557061920180,
+      "timeToLive": -1
+    }
+  },
+  "nest:structure:af5fa800:8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "af5fa800"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "af5fa800",
+          "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "structure"
+        ]
+      },
+      "properties": {
+        "structureId": "8GDnm6mYrjJT2g9iXbRQQg23PPPVi8sSc16-q5vinREaFV91S8kbCg"
+      },
+      "representationProperty": "structureId",
+      "flag": "NEW",
+      "label": "Netgeek",
+      "timestamp": 1557061920197,
+      "timeToLive": -1
+    }
+  }
+}

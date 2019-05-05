@@ -26,6 +26,15 @@
         <secureCommandClasses/>
         <supportedCommandClasses class="concurrent-hash-map">
           <entry>
+            <commandClass>COMMAND_CLASS_NO_OPERATION</commandClass>
+            <COMMAND__CLASS__NO__OPERATION>
+              <version>1</version>
+              <instances>0</instances>
+              <control>false</control>
+              <versionSupported>1</versionSupported>
+            </COMMAND__CLASS__NO__OPERATION>
+          </entry>
+          <entry>
             <commandClass>COMMAND_CLASS_BASIC</commandClass>
             <COMMAND__CLASS__BASIC>
               <version>0</version>
@@ -34,15 +43,6 @@
               <versionSupported>0</versionSupported>
               <isGetSupported>true</isGetSupported>
             </COMMAND__CLASS__BASIC>
-          </entry>
-          <entry>
-            <commandClass>COMMAND_CLASS_NO_OPERATION</commandClass>
-            <COMMAND__CLASS__NO__OPERATION>
-              <version>1</version>
-              <instances>0</instances>
-              <control>false</control>
-              <versionSupported>1</versionSupported>
-            </COMMAND__CLASS__NO__OPERATION>
           </entry>
         </supportedCommandClasses>
       </endPoint>
