@@ -434,7 +434,7 @@
   "zwave:device:3f3da4ed:node2": {
     "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
     "value": {
-      "label": "Z-Wave Node 002",
+      "label": "NetWave-SmartPlug01",
       "bridgeUID": {
         "segments": [
           "zwave",
@@ -442,10 +442,182 @@
           "3f3da4ed"
         ]
       },
-      "channels": [],
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "switch_binary"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ]
+          },
+          "label": "Switch",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "scene_number"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "scene_number"
+            ]
+          },
+          "label": "Scene Number",
+          "description": "Triggers when a scene button is pressed",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SCENE_ACTIVATION"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "meter_kwh"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_kwh"
+            ]
+          },
+          "label": "Electric meter (kWh)",
+          "description": "Indicates the energy consumption (kWh)",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_KWh"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "meter_voltage"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ]
+          },
+          "label": "Electric meter (volts)",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_V"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "meter_watts"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_watts"
+            ]
+          },
+          "label": "Electric meter (watts)",
+          "description": "Indicates the instantaneous power consumption",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_W"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "3f3da4ed",
+              "node2",
+              "meter_current"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_current"
+            ]
+          },
+          "label": "Electric meter (amps)",
+          "description": "Indicates the instantaneous current consumption",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_METER;type\u003dE_A"
+          },
+          "defaultTags": []
+        }
+      ],
       "configuration": {
         "properties": {
-          "switchall_mode": 0,
+          "config_27_1": 0,
+          "config_20_1": 1,
+          "config_21_1": 0,
+          "config_24_1": 1,
           "node_id": 2
         }
       },
@@ -454,13 +626,23 @@
         "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
         "zwave_frequent": "false",
         "zwave_neighbours": "",
-        "zwave_nodeid": "2",
-        "zwave_version": "0.0",
+        "modelId": "HKZW_SO03",
+        "zwave_version": "1.2",
         "zwave_listening": "true",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "manufacturerId": "0208",
+        "manufacturerRef": "0101:000A",
+        "dbReference": "677",
+        "zwave_deviceid": "10",
+        "zwave_nodeid": "2",
+        "vendor": "Hank",
         "zwave_routing": "true",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
         "zwave_beaming": "true",
         "zwave_secure": "false",
-        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY"
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "zwave_manufacturer": "520",
+        "zwave_devicetype": "257"
       },
       "uid": {
         "segments": [
@@ -473,7 +655,7 @@
       "thingTypeUID": {
         "segments": [
           "zwave",
-          "device"
+          "hank_hkzwso03_00_000"
         ]
       }
     }

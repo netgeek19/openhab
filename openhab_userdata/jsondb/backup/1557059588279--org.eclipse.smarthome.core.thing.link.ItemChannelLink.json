@@ -1,22 +1,4 @@
 {
-  "zwave_device_3f3da4ed_node2_meter_current -\u003e zwave:device:3f3da4ed:node2:meter_current": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "device",
-          "3f3da4ed",
-          "node2",
-          "meter_current"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_device_3f3da4ed_node2_meter_current"
-    }
-  },
   "zwave_device_3f3da4ed_node2_scene_number -\u003e zwave:device:3f3da4ed:node2:scene_number": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {
@@ -33,24 +15,6 @@
         "properties": {}
       },
       "itemName": "zwave_device_3f3da4ed_node2_scene_number"
-    }
-  },
-  "zwave_device_3f3da4ed_node2_switch_binary -\u003e zwave:device:3f3da4ed:node2:switch_binary": {
-    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
-    "value": {
-      "channelUID": {
-        "segments": [
-          "zwave",
-          "device",
-          "3f3da4ed",
-          "node2",
-          "switch_binary"
-        ]
-      },
-      "configuration": {
-        "properties": {}
-      },
-      "itemName": "zwave_device_3f3da4ed_node2_switch_binary"
     }
   },
   "zwave_device_3f3da4ed_node2_meter_kwh -\u003e zwave:device:3f3da4ed:node2:meter_kwh": {
@@ -105,6 +69,24 @@
         "properties": {}
       },
       "itemName": "zwave_device_3f3da4ed_node2_meter_watts"
+    }
+  },
+  "zwave_device_3f3da4ed_node2_switch_binary -\u003e zwave:device:3f3da4ed:node2:switch_binary": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "3f3da4ed",
+          "node2",
+          "switch_binary"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_3f3da4ed_node2_switch_binary"
     }
   }
 }

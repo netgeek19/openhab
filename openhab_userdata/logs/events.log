@@ -137,3 +137,20 @@
 2019-05-05 08:09:38.724 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
 2019-05-05 08:09:40.014 [arthome.event.BindingEvent] - org.openhab.binding.zwave.event.BindingEvent@108a820
 2019-05-05 08:27:58.965 [home.event.InboxAddedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been added.
+2019-05-05 08:33:05.676 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_switch_binary-zwave:device:3f3da4ed:node2:switch_binary' has been added.
+2019-05-05 08:33:06.752 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_scene_number-zwave:device:3f3da4ed:node2:scene_number' has been added.
+2019-05-05 08:33:07.718 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_meter_kwh-zwave:device:3f3da4ed:node2:meter_kwh' has been added.
+2019-05-05 08:33:08.279 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_meter_voltage-zwave:device:3f3da4ed:node2:meter_voltage' has been added.
+2019-05-05 08:33:08.291 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_meter_watts-zwave:device:3f3da4ed:node2:meter_watts' has been added.
+2019-05-05 08:33:08.306 [.ItemChannelLinkAddedEvent] - Link 'zwave_device_3f3da4ed_node2_meter_current-zwave:device:3f3da4ed:node2:meter_current' has been added.
+2019-05-05 08:33:08.692 [me.event.InboxRemovedEvent] - Discovery Result with UID 'zwave:device:3f3da4ed:node2' has been removed.
+2019-05-05 08:33:08.734 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from UNINITIALIZED to INITIALIZING
+2019-05-05 08:33:08.771 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE): Controller is offline
+2019-05-05 08:33:08.823 [hingStatusInfoChangedEvent] - 'zwave:device:3f3da4ed:node2' changed from OFFLINE (BRIDGE_OFFLINE): Controller is offline to ONLINE
+2019-05-05 08:33:08.843 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:33:08.864 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:33:08.883 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:33:08.893 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:3f3da4ed:node2' has been updated.
+2019-05-05 08:33:08.903 [vent.ConfigStatusInfoEvent] - ConfigStatusInfo [configStatusMessages=[]]
+2019-05-05 08:33:19.466 [vent.ItemStateChangedEvent] - zwave_device_3f3da4ed_node2_meter_watts changed from NULL to 0
+2019-05-05 08:34:48.971 [vent.ItemStateChangedEvent] - zwave_device_3f3da4ed_node2_meter_kwh changed from NULL to 0.02
